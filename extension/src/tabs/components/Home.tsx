@@ -3,7 +3,7 @@ import React from 'react'
 function Home() {
     return (
         <div>
-            Hello, Home
+            <a href='#' className=''>Login With Goodle </a>
         </div >
 
     )

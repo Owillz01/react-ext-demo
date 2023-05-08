@@ -1,0 +1,43 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\godsw\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add express mongoose nodemon morgan cors cookies-session concurrently passport passport-google-oauth20
+
+PATH: 
+  C:\Users\godsw\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\godsw\bin;C:\Program Files\Eclipse Adoptium\jdk-11.0.14.9-hotspot\bin;C:\Program Files\Microsoft\jdk-17.0.2.8-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\dotnet;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files\Terraform;C:\Users\godsw\AppData\Roaming\Python\Python39\Scripts;C:\Program Files\wget;C:\tools\hadoop-3.2.0;C:\Users\godsw\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\godsw\AppData\Local\Programs\Python\Python310;C:\Users\godsw\AppData\Local\Microsoft\WindowsApps;C:\Users\godsw\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\godsw\AppData\Roaming\npm;C:\Program Files\JetBrains\WebStorm 2020.1\bin;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Terraform;C:\Users\godsw\AppData\Roaming\Python\Python39\Scripts;C:\Program Files\wget;C:\tools\hadoop-3.2.0;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  14.17.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/cookies-session: Not found
+      at Request.params.callback [as _callback] (C:\Users\godsw\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66145:18)
+      at Request.self.callback (C:\Users\godsw\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (events.js:375:28)
+      at Request.<anonymous> (C:\Users\godsw\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (events.js:375:28)
+      at IncomingMessage.<anonymous> (C:\Users\godsw\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (events.js:481:28)
+      at IncomingMessage.emit (events.js:387:35)
+      at endReadableNT (internal/streams/readable.js:1317:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "oauth2",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:manshu/reactjs-chrome-extension.git",
+    "author": "Owillz01 <omonkhodion@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
